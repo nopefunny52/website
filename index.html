@@ -1,10 +1,16 @@
-<!DOCTYPE HTML>
-<html>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Save Form to Existing File</title>
+</head>
 <body>
 
-<form action="display.php" method="post">
-Name: <input type="text" name="name"><br>
-<input type="submit">
+<h2>Form to Append to File</h2>
+
+<form action="/save" method="POST">
+    <label>Name: <input type="text" name="name" required></label><br><br>
+    <button type="submit">Save to File</button>
 </form>
 
 </body>
